@@ -1,0 +1,24 @@
+{
+  "name": "noumena-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node ./dist/index.js",
+    "test": "jest"
+  },
+  "author": "Ed Rixon",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^15.12.2",
+    "jest": "^27.3.1",
+    "jest-each": "^27.3.1",
+    "ts-jest": "^27.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
