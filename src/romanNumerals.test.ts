@@ -42,6 +42,7 @@ describe("roman numerals should", () => {
             {number: 4, roman: "IV"},
             {number: 14, roman: "XIV"},
             {number: 40, roman: "XL"},
+            {number: 400, roman: "CD"},
         ]).test("convert $number with a 4 to $roman", ({number, roman}) => {
             expect(romanNumerals.convert(number)).toEqual(roman)
         });
@@ -50,6 +51,7 @@ describe("roman numerals should", () => {
             {number: 9, roman: "IX"},
             {number: 19, roman: "XIX"},
             {number: 90, roman: "XC"},
+            {number: 900, roman: "CM"},
         ]).test("convert $number with a 9 to $roman", ({number, roman}) => {
             expect(romanNumerals.convert(number)).toEqual(roman)
         });
